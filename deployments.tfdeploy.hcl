@@ -7,10 +7,10 @@ deployment "demo" {
     cluster_name       = "demo"
     kubernetes_version = "1.30"
     identity_token_gcp = "foo"
-    gcp_project        = "hc-terraform-k8s-testing"
+    gcp_project        = "hc-terraform-testing"
     gcp_region         = "europe-central2"
 
     gcp_audience              = "//iam.googleapis.com/projects/871647908372/locations/global/workloadIdentityPools/stacks-demo-qiab/providers/stacks-demo-qiab"
-    gcp_service_account_email = "stacks-demo-8vm0@hc-terraform-k8s-testing.iam.gserviceaccount.com"
+    gcp_service_account_email = "stacks-demo-qiab@hc-terraform-testing.iam.gserviceaccount.com"
   }
 }
