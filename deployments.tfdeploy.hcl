@@ -6,7 +6,7 @@ deployment "demo" {
   inputs = {
     cluster_name       = "demo"
     kubernetes_version = "1.30"
-    identity_token_gcp = identity_token.gcp.jwt_filename
+    identity_token_gcp = identity_token.gcp.jwt
     gcp_project        = "hc-terraform-k8s-testing"
     gcp_region         = "europe-central2"
 
